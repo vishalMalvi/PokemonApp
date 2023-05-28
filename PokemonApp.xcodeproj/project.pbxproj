@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0C41BF2A23568400C8E881 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C41BE2A23568400C8E881 /* PokemonViewModel.swift */; };
+		6E0C41C12A2356A100C8E881 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C41C02A2356A100C8E881 /* PokemonModel.swift */; };
+		6E0C41C42A236C0A00C8E881 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0C41C32A236C0A00C8E881 /* Constants.swift */; };
 		6E65F17C2A229EA000E54F7D /* PokemonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65F17B2A229EA000E54F7D /* PokemonAppApp.swift */; };
-		6E65F17E2A229EA000E54F7D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65F17D2A229EA000E54F7D /* ContentView.swift */; };
+		6E65F17E2A229EA000E54F7D /* PokemonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65F17D2A229EA000E54F7D /* PokemonView.swift */; };
 		6E65F1802A229EA100E54F7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E65F17F2A229EA100E54F7D /* Assets.xcassets */; };
 		6E65F1832A229EA100E54F7D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E65F1822A229EA100E54F7D /* Preview Assets.xcassets */; };
+		6E65F18D2A22ACAC00E54F7D /* PokemonCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65F18C2A22ACAC00E54F7D /* PokemonCardView.swift */; };
+		6EBAEC5E2A238A7C00C5B066 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAEC5D2A238A7C00C5B066 /* NetworkManager.swift */; };
+		6EBAEC602A238ABA00C5B066 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAEC5F2A238ABA00C5B066 /* CustomErrors.swift */; };
+		6EBAEC632A2392E200C5B066 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAEC622A2392E200C5B066 /* Data+Extension.swift */; };
+		6EBAEC652A23C54700C5B066 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAEC642A23C54700C5B066 /* Color+Extension.swift */; };
+		6EBAEC672A23C65300C5B066 /* LinearGradient+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBAEC662A23C65300C5B066 /* LinearGradient+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E0C41BE2A23568400C8E881 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		6E0C41C02A2356A100C8E881 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		6E0C41C32A236C0A00C8E881 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		6E65F1782A229EA000E54F7D /* PokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E65F17B2A229EA000E54F7D /* PokemonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAppApp.swift; sourceTree = "<group>"; };
-		6E65F17D2A229EA000E54F7D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E65F17D2A229EA000E54F7D /* PokemonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonView.swift; sourceTree = "<group>"; };
 		6E65F17F2A229EA100E54F7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E65F1822A229EA100E54F7D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E65F18C2A22ACAC00E54F7D /* PokemonCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCardView.swift; sourceTree = "<group>"; };
+		6EBAEC5D2A238A7C00C5B066 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		6EBAEC5F2A238ABA00C5B066 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		6EBAEC622A2392E200C5B066 /* Data+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		6EBAEC642A23C54700C5B066 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		6EBAEC662A23C65300C5B066 /* LinearGradient+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LinearGradient+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E0C41C22A236BD900C8E881 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C41C32A236C0A00C8E881 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		6E65F16F2A229EA000E54F7D = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +78,12 @@
 			isa = PBXGroup;
 			children = (
 				6E65F17B2A229EA000E54F7D /* PokemonAppApp.swift */,
-				6E65F17D2A229EA000E54F7D /* ContentView.swift */,
+				6EBAEC612A2392B600C5B066 /* Extentions */,
+				6E0C41C22A236BD900C8E881 /* Constants */,
+				6EBAEC5C2A238A4E00C5B066 /* Services */,
+				6E65F1892A22A8A100E54F7D /* Model */,
+				6E65F18A2A22A8AD00E54F7D /* View */,
+				6E65F18B2A22A8BA00E54F7D /* ViewModel */,
 				6E65F17F2A229EA100E54F7D /* Assets.xcassets */,
 				6E65F1812A229EA100E54F7D /* Preview Content */,
 			);
@@ -65,6 +96,50 @@
 				6E65F1822A229EA100E54F7D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E65F1892A22A8A100E54F7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C41C02A2356A100C8E881 /* PokemonModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E65F18A2A22A8AD00E54F7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E65F17D2A229EA000E54F7D /* PokemonView.swift */,
+				6E65F18C2A22ACAC00E54F7D /* PokemonCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E65F18B2A22A8BA00E54F7D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6E0C41BE2A23568400C8E881 /* PokemonViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6EBAEC5C2A238A4E00C5B066 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6EBAEC5D2A238A7C00C5B066 /* NetworkManager.swift */,
+				6EBAEC5F2A238ABA00C5B066 /* CustomErrors.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6EBAEC612A2392B600C5B066 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				6EBAEC622A2392E200C5B066 /* Data+Extension.swift */,
+				6EBAEC642A23C54700C5B066 /* Color+Extension.swift */,
+				6EBAEC662A23C65300C5B066 /* LinearGradient+Extensions.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +212,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E65F17E2A229EA000E54F7D /* ContentView.swift in Sources */,
+				6E0C41BF2A23568400C8E881 /* PokemonViewModel.swift in Sources */,
+				6EBAEC652A23C54700C5B066 /* Color+Extension.swift in Sources */,
+				6E65F17E2A229EA000E54F7D /* PokemonView.swift in Sources */,
 				6E65F17C2A229EA000E54F7D /* PokemonAppApp.swift in Sources */,
+				6EBAEC672A23C65300C5B066 /* LinearGradient+Extensions.swift in Sources */,
+				6EBAEC5E2A238A7C00C5B066 /* NetworkManager.swift in Sources */,
+				6E0C41C12A2356A100C8E881 /* PokemonModel.swift in Sources */,
+				6EBAEC602A238ABA00C5B066 /* CustomErrors.swift in Sources */,
+				6E65F18D2A22ACAC00E54F7D /* PokemonCardView.swift in Sources */,
+				6E0C41C42A236C0A00C8E881 /* Constants.swift in Sources */,
+				6EBAEC632A2392E200C5B066 /* Data+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
