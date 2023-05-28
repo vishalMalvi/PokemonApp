@@ -41,3 +41,9 @@ struct PokemonCardView: View {
         .background(RoundedRectangle(cornerRadius: 12).fill(cardColor.opacity(0.5)))
     }
 }
+
+struct PokemonCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        PokemonCardView(pokemon: PreviewData.pokemon, cardColor: LinearGradient.poison)
+    }
+}

@@ -13,7 +13,7 @@ struct PokemonView: View {
         GridItem(.flexible())
     ]
     
-    @ObservedObject var viewModel: PokemonViewModel = PokemonViewModel()
+    @StateObject var viewModel: PokemonViewModel = PokemonViewModel()
     
     var body: some View {
         NavigationStack {
@@ -27,7 +27,14 @@ struct PokemonView: View {
                 ScrollView(.vertical, showsIndicators: false) {
                     LazyVGrid(columns: guide) {
                         ForEach(viewModel.pokemon) { pokemon in
-                            PokemonCardView(pokemon: pokemon, cardColor: viewModel.cardColor(forType: pokemon.type))
+                            
+                            NavigationLink {
+                                PokemonDetailsView(pokemon: pokemon, color: viewModel.cardColor(forType: pokemon.type))
+                            } label: {
+                                PokemonCardView(pokemon: pokemon, cardColor: viewModel.cardColor(forType: pokemon.type))
+                                    .foregroundColor(.black)
+                            }
+
                         }
                     }
                 }
