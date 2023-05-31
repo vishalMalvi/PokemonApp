@@ -1,6 +1,6 @@
 # PokemonApp
 
-This is a simple iOS application built using SwiftUI that fetches Pokemon data from the "https://pokedex-bb36f.firebaseio.com/pokemon.json" API and displays it in a user-friendly format.
+This is a simple iOS application built using SwiftUI that fetches Pokemon data from the https://pokedex-bb36f.firebaseio.com/pokemon.json API and displays it in a user-friendly format.
 
 ## Features: 
 
@@ -11,7 +11,7 @@ This is a simple iOS application built using SwiftUI that fetches Pokemon data f
  ## Technologies Used: 
  
   * SwiftUI: A modern framework for building user interfaces across all Apple platforms.
-  * API: Utilizes the "https://pokedex-bb36f.firebaseio.com/pokemon.json" API to retrieve Pokemon data.
+  * API: Utilizes the https://pokedex-bb36f.firebaseio.com/pokemon.json API to retrieve Pokemon data.
   
   ## Installation: 
   
@@ -20,8 +20,7 @@ This is a simple iOS application built using SwiftUI that fetches Pokemon data f
    1. Clone the repository to your local machine.
    
    ```
-   git clone https://github.com/vishalMalvi/PokemonApp.git 
-   
+   git clone https://github.com/vishalMalvi/PokemonApp.git
    ```
    2. Open the project in Xcode.
    3. Build and run the project on the iOS Simulator or a connected iOS device.
