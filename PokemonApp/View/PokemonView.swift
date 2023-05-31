@@ -29,9 +29,9 @@ struct PokemonView: View {
                         ForEach(viewModel.pokemon) { pokemon in
                             
                             NavigationLink {
-                                PokemonDetailsView(pokemon: pokemon, color: viewModel.cardColor(forType: pokemon.type))
+                                PokemonDetailsView(pokemon: pokemon, color: viewModel.pokemonCardColor(byType: pokemon.type))
                             } label: {
-                                PokemonCardView(pokemon: pokemon, cardColor: viewModel.cardColor(forType: pokemon.type))
+                                PokemonCardView(pokemon: pokemon, cardColor: viewModel.pokemonCardColor(byType: pokemon.type))
                                     .foregroundColor(.black)
                             }
 

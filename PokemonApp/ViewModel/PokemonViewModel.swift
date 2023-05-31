@@ -34,7 +34,7 @@ class PokemonViewModel: ObservableObject {
         }
     }
     
-    public func cardColor(forType type: String) -> LinearGradient {
+    public func pokemonCardColor(byType type: String) -> LinearGradient {
         switch type {
         case "fire":
             return LinearGradient.fire
